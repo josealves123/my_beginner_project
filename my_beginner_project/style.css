@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+a:hover{
+    color: rgb(255, 255, 255);
+}
+
+h1{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+nav{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    height: 80px;
+    background-color:rgb(0, 134, 134);
+    padding: 0 80px ;
+}
+
+div.menu-right{
+    display: flex;
+    gap: 20px;
+}
+
+div.menu-left{
+    display: flex;
+    align-items: center;
+}
+
+img.logo{
+    width: 90px;
+}
+
+article{
+    position: absolute;
+    padding: 20px 40px;
+    padding-top: 40px;
+    align-items: center;
+    text-align: center;
+}
+
+article .title{
+    color: rgb(0, 134, 134);
+}
+
+
+
+p.description{
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+button.o-button{
+    width: 200px;
+    height: 50px;
+    background-color:rgb(0, 134, 134) ;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+button:hover{
+    background-color: rgb(0, 126, 180);
+}
+
+figure{
+    position: absolute;
+    right: 10px;
+    top: 140px;
+}
+
+footer{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(0, 134, 134) ;
+    text-align: center;
+}
+
+h2.contact{
+    font-size: 20px;
+}
+
+footer{
+    position: absolute;
+    justify-content: center;
+}
+
